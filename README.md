@@ -27,11 +27,9 @@ Traditional municipal climate monitoring treats thermal stress and hydrological 
 ```text
 Kolkata-CRIS-Engine/
 ├── scripts/
-│   ├── 01_gee_data_extraction.ipynb       # Google Earth Engine data pipeline
-│   ├── 02_grid_resampling_alignment.ipynb # Rasterio spatial affine transformation
-│   └── 03_cri_matrix_fusion.py            # First-principles LST, MNDWI & CRI fusion
+│   ├── 01_GEE_Extraction_and_Verification.ipynb      # Google Earth Engine data pipeline & Rasterio spatial affine transformation
+│   └── 02_CRI_Matrix_Fusion.ipynb        # First-principles LST, MNDWI & CRI fusion
 ├── README.md
-└── requirements.txt
 ```
 
 ---
